@@ -58,7 +58,7 @@ def fps(img, prevTime, currTime, WIDTH, HEIGHT):
     prevTime = currTime
     cv2.putText(img, "FPS: " + str(int(fps)), (int(WIDTH - 200) , 100), cv2.FONT_HERSHEY_PLAIN, 3, (255, 255, 255), 2)
 
-    return prevTime, currTime  
+    return prevTime, currTime
 
 def webcamResolution(capture):
     # Checks possible webcams
